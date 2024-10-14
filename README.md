@@ -121,6 +121,6 @@ The Open Hiring Matrix (OHM) provides a structured, transparent, and fair approa
 
 We welcome feedback and suggestions for improving the OHM. Please share your thoughts and experiences with using the matrix to help us refine and enhance this tool.
 
-### AI-Assisted
+### Human-Created / AI-Assisted
 
 The idea, the concept, the structure and formulation of this framework was human created. However parts of this document was createdwith the assistance of Chat GPT
