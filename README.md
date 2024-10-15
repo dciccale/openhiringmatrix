@@ -43,7 +43,7 @@ During the hiring process, each candidate is evaluated on each quality, potentia
 
 ### Formula
 
-∑(S × W)
+`∑(S × W)`
 
 #### Example Matrix
 
