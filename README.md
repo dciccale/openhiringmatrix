@@ -4,21 +4,50 @@
 
 ## Introduction
 
-The Open Hiring Matrix (OHM) is a framework designed to bring clarity, fairness, and consistency to the hiring process. By offering a structured view of the requirements for a role, including how important each skill is and providing an evaluation system, it enables companies to assess candidates across multiple skills, ensuring that the hiring decision is not based on subjective criteria or misconceptions between the candidate and the company.
+In this document we will explain what this project is about and how you can implement it successfully in your hiring
+process.
 
-OHM empowers both companies and candidates by making the selection process more transparent: candidates gain insight into the specific skills and requirements that matter most for the role, while companies benefit from a clear, quantifiable method to compare how much candidates align with the open role.
+The Open Hiring Matrix (OHM) is a framework designed to bring clarity, fairness, and consistency to the hiring process.
+By offering a structured view—in the form of a matrix—of the requirements for a role, including how important each skill
+is for that role, and providing an evaluation system that enable companies to assess candidates across multiple skills,
+hard and soft, ensuring that the hiring decision is not based on subjective criteria or misconceptions between the
+candidate and the company.
 
-The matrix approach helps organizations prioritize what they value in a role—whether it’s technical expertise, soft skills, or cultural fit—while providing a balanced, holistic view of each candidate. In essence, OHM aligns expectations on both sides of the hiring equation, creating a fair and data-driven approach to talent acquisition.
+OHM empowers both companies and candidates by making the hiring process more transparent: candidates gain insight into
+the specific skills and requirements that matter most for the role, while companies benefit from a clear, quantifiable
+method to compare how much candidates align with the open position.
 
-Having a clear representation of what the company values most helps to align expectations and reduce bias. It ensures that the selected candidate is the best fit for the role overall, reducing uncertainty and preventing mistakes or assumptions during the interview process. This improves communication between companies and candidates and ultimately leads to better outcomes for both parties.
+The approach of OHM, aims to help organizations identify what skills they value the most in a role—whether it’s
+technical expertise, soft skills, or cultural fit—while providing a balanced, comprehensive assessment of each candidate
+across a variety of attributes. In essence, OHM aligns expectations on both sides of the hiring process, creating
+a fair and data-driven approach to talent acquisition from the start.
 
 ## Why
 
-When reviewing job descriptions, it is often unclear what the company values most in a candidate when describing skills and requirements. For example, job descriptions might include terms like "Experience with...," "Strong knowledge of...," "Solid knowledge of...," "Advanced knowledge of...," or "Familiarity with..." without clarifying the level of proficiency required for each skill.
+When reviewing job descriptions, it’s often unclear what the company prioritizes from the list of required skills.
+Phrases like 'Experience with...,' 'Strong knowledge of...,' 'Solid knowledge of...,' 'Advanced knowledge of...,' or
+'Familiarity with...' can make it difficult to determine which skill or adjective—if we focus on the descriptive
+language—carries more weight
 
-From a candidate’s perspective, it is challenging to understand the relative importance of each skill or how they align with the role. Not all skills will be equally important, and some may be highly required, while others are less so. OHM provides a structured and transparent way to share and evaluate candidates based on the skills and requirements that matter most for the role. It is a tool to help both companies and candidates align expectations and make more informed decisions.
+Does "Solid knowledge" imply more expertise than "Advanced knowledge"? Or does "Experience with" hold more value than
+"Strong knowledge"?
 
-As a candidate, understanding how much you align with the role, based on clear and objective criteria, can increase confidence when applying. This, in turn, improves the company’s chances of finding someone who is a great fit for the role.
+Some cases might feel more clear than others, for instance "Experience with" seems to be clear that means more than
+"Familiarity with", right?
+
+Because there is no easy way to quantify these terms, we often rely on adjectives that are loosely defined and can be
+interpreted differently by different people.
+
+It is probably known by now that the list of requirements, especially in the tech industry, feel endless sometimes and
+we know we can't easily evaluate everything that is asked for in a practicable way. Moreover not only hard skills are
+being evaluated, but also soft skills, experience, cultural fit, etc, which arguably in many cases could be or have been
+a reason for rejection as well.
+
+We all could benefit from a way of being transparent on the spectrum of dimensions or skillset that are necessary and
+that will be evaluated during a hiring process in order to align better bettwen the company and the candidate.
+
+As a candidate, understanding how much you think you align with the role and a company, may increase the chances to
+apply eagerly with confidence and for the company it could increase the chances of finding a great match faster.
 
 ## Purpose
 
@@ -26,26 +55,30 @@ OHM aims to provide:
 
 - **Structure**: A framework for companies to describe the required skills (technical and non-technical) for a role.
 - **Transparency**: Clear insight for candidates into how different skills and requirements are valued by the company.
-- **Openness**: An evaluation template for companies to provide candidates with feedback.
+- **Openness**: An evaluation template for companies to also provide candidates with feedback.
 
 ## Implementation
 
 To successfully implement the Open Hiring Matrix, companies should focus on these 3 areas:
 
-- **Skills**: Identify the key dimensions that the role requires, such as technical abilities or interpersonal capabilities.
-- **Criterion**: Each skill is measured by specific indicators that assess the candidate's proficiency and alignment with the role.
+- **Skills**: Identify the key dimensions that the role requires, such as technical abilities or interpersonal
+  capabilities.
+- **Criterion**: Each skill is measured by specific indicators that assess the candidate's proficiency and alignment
+  with the role.
 - **Weight**: Assign a weight to each criterion to reflect its importance in the role.
 
 ### Skills
 
 It is paramount to identify the key skills required for the role. These skills should encompass both technical and soft
-skills, as well as experience, cultural fit, and cultural contribution. or any other category that is relevant to the role according to the company's needs.
+skills, as well as experience, cultural fit, and cultural contribution. or any other category that is relevant to the
+role according to the company's needs.
 
 ### Criterion
 
-Each skill should be accompanied with a specific criteria on how the skill will be evaluated.
-For example, if the skill is "Programming languages" the criterion could be "Proficiency in relevant programming languages".
-The company could add more deail on how the proficiency will be evaluated, such as "Ability to write clean, efficient code in Python", or even have a checklist of questions or tasks that the candidate will be evaluated on.
+Each skill should be accompanied with a specific criteria on how the skill will be evaluated. For example, if the skill
+is "Programming languages" the criterion could be "Proficiency in relevant programming languages". The company could add
+more deail on how the proficiency will be evaluated, such as "Ability to write clean, efficient code in Python", or even
+have a checklist of questions or tasks that the candidate will be evaluated on.
 
 ### Weight
 
@@ -58,11 +91,13 @@ attributes that are important to the company to include on their team.
 
 Let's dive into an example of how the Open Hiring Matrix can be implemented for a software engineering role.
 
-We will describe the different skills, criteria, and weights that could be considered for evaluating candidates for this role.
+We will describe the different skills, criteria, and weights that could be considered for evaluating candidates for this
+role.
 
 ### Technical Skills
 
-Technical skills involve evaluating the specific knowledge and competencies that enable a candidate to perform tasks or use tools in a particular field, such as programming, design, or systems management.
+Technical skills involve evaluating the specific knowledge and competencies that enable a candidate to perform tasks or
+use tools in a particular field, such as programming, design, or systems management.
 
 | Skill                                            | Criterion                                                                             | Weight |
 | ------------------------------------------------ | ------------------------------------------------------------------------------------- | ------ |
@@ -76,7 +111,8 @@ These criteria ensure that the candidate possesses both theoretical knowledge an
 
 ### Soft Skills
 
-Soft skills assess interpersonal and emotional competencies that facilitate communication, collaboration, and relationship management in the workplace.
+Soft skills assess interpersonal and emotional competencies that facilitate communication, collaboration, and
+relationship management in the workplace.
 
 | Skill                                   | Criterion                                                                   | Weight |
 | --------------------------------------- | --------------------------------------------------------------------------- | ------ |
@@ -86,7 +122,8 @@ Soft skills assess interpersonal and emotional competencies that facilitate comm
 | &nbsp;&nbsp;&nbsp;&nbsp;Adaptability    | Flexibility and willingness to learn and adjust to new situations.          | 0.5    |
 | &nbsp;&nbsp;&nbsp;&nbsp;Problem-solving | Ability to identify, analyze, and solve problems effectively.               | 0.5    |
 
-These criteria assess the candidate's ability to collaborate within a team, learn, and positively impact the work environment.
+These criteria assess the candidate's ability to collaborate within a team, learn, and positively impact the work
+environment.
 
 ### Experience
 
@@ -160,15 +197,18 @@ Here is a breakdown of the key skills, criteria, and weights for a role:
 | &nbsp;&nbsp;&nbsp;&nbsp;Innovation and new skills                   | Introduction of technical or methodological skills not currently present in the team.          | 0.25   |
 | &nbsp;&nbsp;&nbsp;&nbsp;International or multicultural experience   | Experience in culturally diverse teams or international markets.                               | 0.25   |
 
-Now that we have defined the key skills, criteria, and weights for the role, we can use this matrix in the hiring process to evaluate candidates based on their skills, experience, and cultural fit.
+Now that we have defined the key skills, criteria, and weights for the role, we can use this matrix in the hiring
+process to evaluate candidates based on their skills, experience, and cultural fit.
 
 ## Evaluation
 
 Once candidates are evaluated, the following columns will be added to the matrix:
 
 - **Observations**: Specific notes or feedback on the candidate's performance in each criterion.
-- **Score**: A numerical score between 1 to 10, where 1 is the lowest possible score and 10 is the top score. It is assigned to each skill based on the candidate's performance based on the criterion.
-- **Total Score**: The sum of all scores for each candidate. The the mathematical formula to describe this would be: Total Score = `∑(S × W)`
+- **Score**: A numerical score between 1 to 10, where 1 is the lowest possible score and 10 is the top score. It is
+  assigned to each skill based on the candidate's performance based on the criterion.
+- **Total Score**: The sum of all scores for each candidate. The the mathematical formula to describe this would be:
+  Total Score = `∑(S × W)`
 
 | Skill                                                               | Criterion                                                                                      | Weight | Observations                                                                                                     | Score | Total Score |
 | ------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ------ | ---------------------------------------------------------------------------------------------------------------- | ----- | ----------- |
@@ -199,11 +239,14 @@ Once candidates are evaluated, the following columns will be added to the matrix
 
 ### Final Score: **75.75**
 
-The final score for this candidate would be the total sum of all the scores multiplied by their respective weights. In this case, the candidate scored **75.75** out of a possible 100.
+The final score for this candidate would be the total sum of all the scores multiplied by their respective weights. In
+this case, the candidate scored **75.75** out of a possible 100.
 
 ### Horizontal Evaluation Matrix
 
-For simplicity, we are omitting the breakdown skills of each category. This matrix represents an aggregate view of each candidate's evaluation across major skill categories, with the final score reflecting the weighted sum for each candidate.
+For simplicity, we are omitting the breakdown skills of each category. This matrix represents an aggregate view of each
+candidate's evaluation across major skill categories, with the final score reflecting the weighted sum for each
+candidate.
 
 | Candidate   | Technical Skills (3) | Soft Skills (2) | Experience (3) | Cultural Fit (2) | Cultural Contribution (1) | Total Score |
 | ----------- | -------------------- | --------------- | -------------- | ---------------- | ------------------------- | ----------- |
@@ -214,9 +257,15 @@ For simplicity, we are omitting the breakdown skills of each category. This matr
 
 ### Conclusion
 
-In this example, **Candidate C** did not score the highest in **Technical Skills** (scoring 6), but they significantly outperform in **Soft Skills**, **Cultural Fit**, and **Cultural Contribution**. This balanced profile, with strong interpersonal and cultural strengths, makes **Candidate C** a more compelling fit for the company’s needs. Their total score of **78** reflects their well-rounded abilities, positioning them as a candidate who could integrate well with the team, even without being the strongest technically.
+In this example, **Candidate C** did not score the highest in **Technical Skills** (scoring 6), but they significantly
+outperform in **Soft Skills**, **Cultural Fit**, and **Cultural Contribution**. This balanced profile, with strong
+interpersonal and cultural strengths, makes **Candidate C** a more compelling fit for the company’s needs. Their total
+score of **78** reflects their well-rounded abilities, positioning them as a candidate who could integrate well with the
+team, even without being the strongest technically.
 
-This scenario shows how modern hiring practices consider a variety of factors, such as communication, adaptability, and cultural alignment. It demonstrates that a candidate can still be a great fit for the team without necessarily excelling in one specific area, particularly when their strengths match what the company values most in its employees.
+This scenario shows how modern hiring practices consider a variety of factors, such as communication, adaptability, and
+cultural alignment. It demonstrates that a candidate can still be a great fit for the team without necessarily excelling
+in one specific area, particularly when their strengths match what the company values most in its employees.
 
 ## Open Source
 
@@ -234,8 +283,10 @@ We are planning to provide a web application that will allow companies to:
 
 ## Feedback
 
-We welcome feedback and suggestions for improving OHM. Please share your thoughts and experiences to help us refine and enhance this tool.
+We welcome feedback and suggestions for improving OHM. Please share your thoughts and experiences to help us refine and
+enhance this tool.
 
 ### Human-Created / AI-Assisted
 
-The idea, concept, structure, and formulation of this framework were human-created. However, parts of this document were created with the assistance of Chat GPT.
+The idea, concept, structure, and formulation of this framework were human-created. However, parts of this document were
+created with the assistance of Chat GPT.

@@ -33,6 +33,9 @@ function startServer() {
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css">
             <title>Markdown to HTML</title>
+            <style>
+            body.markdown-body {margin: 0 auto; max-width: 800px; padding: 30px;}
+            </style>
           </head>
           <body class="markdown-body">
             ${html}
