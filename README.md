@@ -4,12 +4,12 @@
 
 ## Introduction
 
-In this document we will explain what this project is about and how you can implement it successfully in your hiring
+In this document, we will explain what this project is about and how you can implement it successfully in your hiring
 process.
 
 The Open Hiring Matrix (OHM) is a framework designed to bring clarity, fairness, and consistency to the hiring process.
 By offering a structured view—in the form of a matrix—of the requirements for a role, including how important each skill
-is for that role, and providing an evaluation system that enable companies to assess candidates across multiple skills,
+is for that role, and providing an evaluation system that enables companies to assess candidates across multiple skills,
 hard and soft, ensuring that the hiring decision is not based on subjective criteria or misconceptions between the
 candidate and the company.
 
@@ -17,37 +17,37 @@ OHM empowers both companies and candidates by making the hiring process more tra
 the specific skills and requirements that matter most for the role, while companies benefit from a clear, quantifiable
 method to compare how much candidates align with the open position.
 
-The approach of OHM, aims to help organizations identify what skills they value the most in a role—whether it’s
-technical expertise, soft skills, or cultural fit—while providing a balanced, comprehensive assessment of each candidate
-across a variety of attributes. In essence, OHM aligns expectations on both sides of the hiring process, creating
-a fair and data-driven approach to talent acquisition from the start.
+The approach of OHM aims to help organizations identify what skills they value the most in a role—whether it’s technical
+expertise, soft skills, or cultural fit—while providing a balanced, comprehensive assessment of each candidate across
+a variety of attributes. In essence, OHM aligns expectations on both sides of the hiring process, creating a fair and
+data-driven approach to talent acquisition from the start.
 
 ## Why
 
 When reviewing job descriptions, it’s often unclear what the company prioritizes from the list of required skills.
 Phrases like 'Experience with...,' 'Strong knowledge of...,' 'Solid knowledge of...,' 'Advanced knowledge of...,' or
 'Familiarity with...' can make it difficult to determine which skill or adjective—if we focus on the descriptive
-language—carries more weight
+language—carries more weight.
 
 Does "Solid knowledge" imply more expertise than "Advanced knowledge"? Or does "Experience with" hold more value than
 "Strong knowledge"?
 
-Some cases might feel more clear than others, for instance "Experience with" seems to be clear that means more than
+Some cases might feel clearer than others, for instance, "Experience with" seems to be clear that it means more than
 "Familiarity with", right?
 
 Because there is no easy way to quantify these terms, we often rely on adjectives that are loosely defined and can be
 interpreted differently by different people.
 
-It is probably known by now that the list of requirements, especially in the tech industry, feel endless sometimes and
-we know we can't easily evaluate everything that is asked for in a practicable way. Moreover not only hard skills are
-being evaluated, but also soft skills, experience, cultural fit, etc, which arguably in many cases could be or have been
-a reason for rejection as well.
+It is probably known by now that the list of requirements, especially in the tech industry, feels endless sometimes, and
+we know we can't easily evaluate everything that is asked for in a practical way. Moreover, not only hard skills are
+being evaluated, but also soft skills, experience, cultural fit, etc., which arguably in many cases could be or have
+been a reason for rejection as well.
 
-We all could benefit from a way of being transparent on the spectrum of dimensions or skillset that are necessary and
-that will be evaluated during a hiring process in order to align better bettwen the company and the candidate.
+We all could benefit from a way of being transparent about the spectrum of dimensions or skillsets that are necessary
+and that will be evaluated during a hiring process in order to better align between the company and the candidate.
 
-As a candidate, understanding how much you think you align with the role and a company, may increase the chances to
-apply eagerly with confidence and for the company it could increase the chances of finding a great match faster.
+As a candidate, understanding how much you think you align with the role and a company may increase the chances to apply
+eagerly with confidence, and for the company, it could increase the chances of finding a great match faster.
 
 ## Purpose
 
@@ -70,21 +70,21 @@ To successfully implement the Open Hiring Matrix, companies should focus on thes
 ### Skills
 
 It is paramount to identify the key skills required for the role. These skills should encompass both technical and soft
-skills, as well as experience, cultural fit, and cultural contribution. or any other category that is relevant to the
+skills, as well as experience, cultural fit, and cultural contribution, or any other category that is relevant to the
 role according to the company's needs.
 
 ### Criterion
 
-Each skill should be accompanied with a specific criteria on how the skill will be evaluated. For example, if the skill
-is "Programming languages" the criterion could be "Proficiency in relevant programming languages". The company could add
-more deail on how the proficiency will be evaluated, such as "Ability to write clean, efficient code in Python", or even
-have a checklist of questions or tasks that the candidate will be evaluated on.
+Each skill should be accompanied by a specific criterion on how the skill will be evaluated. For example, if the skill
+is "Programming languages," the criterion could be "Proficiency in relevant programming languages." The company could
+add more detail on how proficiency will be evaluated, such as "Ability to write clean, efficient code in Python," or
+even have a checklist of questions or tasks that the candidate will be evaluated on.
 
 ### Weight
 
 Assigning a weight to each skill is crucial to reflect its importance in the role. Not every skill is equally important,
 and some may be more critical for the role than others. By assigning weights, companies can ensure that the evaluation
-process is aligned with the role's requirements and priorities as well as the company's values and culture - or - other
+process is aligned with the role's requirements and priorities as well as the company's values and culture—or other
 attributes that are important to the company to include on their team.
 
 ## Example
@@ -145,7 +145,7 @@ Cultural fit assesses how well the candidate’s values, beliefs, and behaviors 
 
 | Skill                                           | Criterion                                                                                 | Weight |
 | ----------------------------------------------- | ----------------------------------------------------------------------------------------- | ------ |
-| Clutural Fit                                    |                                                                                           | 2      |
+| Cultural Fit                                    |                                                                                           | 2      |
 | Alignment with the company’s core values        | Compatibility with the company’s fundamental principles.                                  | 0.5    |
 | Commitment to organizational mission and vision | Motivation to contribute to the organization’s goals.                                     | 0.25   |
 | Adaptation to methodology and work style        | Ability to adapt to the company’s methodologies, such as agile development.               | 0.5    |
@@ -207,8 +207,8 @@ Once candidates are evaluated, the following columns will be added to the matrix
 - **Observations**: Specific notes or feedback on the candidate's performance in each criterion.
 - **Score**: A numerical score between 1 to 10, where 1 is the lowest possible score and 10 is the top score. It is
   assigned to each skill based on the candidate's performance based on the criterion.
-- **Total Score**: The sum of all scores for each candidate. The the mathematical formula to describe this would be:
-  Total Score = `∑(S × W)`
+- **Total Score**: The sum of all scores for each candidate. The mathematical formula to describe this would be: Total
+  Score = `∑(S × W)`
 
 | Skill                                                               | Criterion                                                                                      | Weight | Observations                                                                                                     | Score | Total Score |
 | ------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ------ | ---------------------------------------------------------------------------------------------------------------- | ----- | ----------- |
