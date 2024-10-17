@@ -30,22 +30,22 @@ OHM aims to provide:
 
 To successfully implement the Open Hiring Matrix, companies should focus on these 3 areas:
 
-- **Key skills**: Identify the key dimensions that the role requires, such as technical abilities or interpersonal capabilities.
+- **Skills**: Identify the key dimensions that the role requires, such as technical abilities or interpersonal capabilities.
 - **Criterion**: Each skill is measured by specific indicators that assess the candidate's proficiency and alignment with the role.
 - **Weight**: Assign a weight to each criterion to reflect its importance in the role.
 
-### Key Skills
+### Skills
 
 It is paramount to identify the key skills required for the role. These skills should encompass both technical and soft
 skills, as well as experience, cultural fit, and cultural contribution. or any other category that is relevant to the role according to the company's needs.
 
-## Criterion
+### Criterion
 
 Each skill should be accompanied with a specific criteria on how the skill will be evaluated.
 For example, if the skill is "Programming languages" the criterion could be "Proficiency in relevant programming languages".
 The company could add more deail on how the proficiency will be evaluated, such as "Ability to write clean, efficient code in Python", or even have a checklist of questions or tasks that the candidate will be evaluated on.
 
-## Weight
+### Weight
 
 Assigning a weight to each skill is crucial to reflect its importance in the role. Not every skill is equally important,
 and some may be more critical for the role than others. By assigning weights, companies can ensure that the evaluation
@@ -118,7 +118,7 @@ These criteria help determine whether the candidate can successfully integrate i
 
 Cultural contribution evaluates how the candidate could bring new perspectives and diversity to the company culture.
 
-| Cultural Contribution                     | Criterion                                                                             | Weight |
+| Skill                                     | Criterion                                                                             | Weight |
 | ----------------------------------------- | ------------------------------------------------------------------------------------- | ------ |
 | Cultural Contribution                     |                                                                                       | 1      |
 | Diversity of thought and approach         | Ability to contribute new approaches, solutions, or ideas.                            | 0.5    |
@@ -160,7 +160,7 @@ Here is a breakdown of the key skills, criteria, and weights for a role:
 
 Now that we have defined the key skills, criteria, and weights for the role, we can use this matrix in the hiring process to evaluate candidates based on their skills, experience, and cultural fit.
 
-### Example Evaluation Matrix
+## Evaluation
 
 Once candidates are evaluated, the following columns will be added to the matrix:
 
@@ -197,7 +197,7 @@ Once candidates are evaluated, the following columns will be added to the matrix
 
 ### Final Score: **75.75**
 
-The final score for this candidate would be: `7 + 3 + 2.5 + 5 + 4 + 3.5 + 3 + 3.5 + 8 + 6 + 3 + 3.5 + 4.5 + 1.75 4 + 6.75 + 4 + 1.5 + 1.25 = 75.75`
+The final score for this candidate would be the total sum of all the scores multiplied by their respective weights. In this case, the candidate scored **75.75** out of a possible 100.
 
 ### Horizontal Evaluation Matrix
 
@@ -218,7 +218,8 @@ This scenario shows how modern hiring practices consider a variety of factors, s
 
 ## Open Source
 
-The OHM is an open-source project, and we encourage companies to adopt and adapt this framework to their specific needs. By using OHM, companies can:
+The OHM is an open-source project, and we encourage companies to adopt and adapt this framework to their specific needs.
+We also welcome contributions to enhance and expand the OHM to better serve the hiring process.
 
 ## Web Application
 
@@ -228,10 +229,6 @@ We are planning to provide a web application that will allow companies to:
 - Input candidate scores and observations, and calculate total scores.
 - Share links to hiring matrices on job applications.
 - Share evaluation results privately with candidates.
-
-## Conclusion
-
-The Open Hiring Matrix (OHM) provides a structured, transparent, and fair approach to the hiring process. By considering multiple skills and allowing for weighted evaluations, OHM helps companies make better hiring decisions and provides candidates with a clear understanding of what is valued by potential employers.
 
 ## Feedback
 
