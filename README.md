@@ -30,8 +30,8 @@ OHM aims to provide:
 
 To successfully implement the Open Hiring Matrix, companies should focus on these 3 areas:
 
-- **Key skills**: Identify the most important skills for the role.
-- **Criterion**: Describe specific criteria to evaluate each skill.
+- **Key skills**: Identify the key dimensions that the role requires, such as technical abilities or interpersonal capabilities.
+- **Criterion**: Each skill is measured by specific indicators that assess the candidate's proficiency and alignment with the role.
 - **Weight**: Assign a weight to each criterion to reflect its importance in the role.
 
 ### Key Skills
