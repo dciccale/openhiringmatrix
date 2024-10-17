@@ -14,7 +14,7 @@ const PORT = 4000;
 let server;
 
 function startServer() {
-  server = http.createServer((req, res) => {
+  server = http.createServer((_, res) => {
     fs.readFile(markdownFilePath, "utf8", (err, data) => {
       if (err) {
         res.writeHead(500, { "Content-Type": "text/plain" });
