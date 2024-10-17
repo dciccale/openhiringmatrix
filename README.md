@@ -1,5 +1,7 @@
 # Open Hiring Matrix (OHM)
 
+[Versión en Español](/es)
+
 ## Introduction
 
 The Open Hiring Matrix (OHM) is a framework designed to bring clarity, fairness, and consistency to the hiring process. By offering a structured view of the requirements for a role, including how important each skill is and providing an evaluation system, it enables companies to assess candidates across multiple skills, ensuring that the hiring decision is not based on subjective criteria or misconceptions between the candidate and the company.

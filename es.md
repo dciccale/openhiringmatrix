@@ -1,5 +1,7 @@
 # Matriz de Contratación Abierta (OHM)
 
+[English version](/)
+
 ## Introducción
 
 La Matriz de Contratación Abierta (OHM) es un marco diseñado para aportar claridad, equidad y consistencia al proceso de selección. Al ofrecer una visión estructurada de los requisitos de un puesto, incluyendo la importancia de cada habilidad y proporcionando un sistema de evaluación, permite a las empresas evaluar a los candidatos en base a múltiples habilidades, garantizando que la decisión de contratación no se base en criterios subjetivos o malentendidos entre el candidato y la empresa.
