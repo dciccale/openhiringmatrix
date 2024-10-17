@@ -1,6 +1,6 @@
 # Open Hiring Matrix (OHM)
 
-[English version](/en)
+[English version](/)
 
 ## Introducción
 
