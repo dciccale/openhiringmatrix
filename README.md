@@ -4,58 +4,36 @@
 
 ## Introduction
 
-In this document, we will explain what this project is about and how you can implement it successfully in your hiring
-process.
+In this document, we will explain what this project is about and how you can successfully implement it into your hiring process.
 
-The Open Hiring Matrix (OHM) is a framework designed to bring clarity, fairness, and consistency to the hiring process.
-By offering a structured view—in the form of a matrix—of the requirements for a role, including how important each skill
-is for that role, and providing an evaluation system that enables companies to assess candidates across multiple skills,
-hard and soft, ensuring that the hiring decision is not based on subjective criteria or misconceptions between the
-candidate and the company.
+We aim to change the traditional approach to posting job offers. Moving away from lengthy and abstract lists of requirements, we are moving toward a more defined, accessible, and transparent hiring framework for both companies and candidates.
 
-OHM empowers both companies and candidates by making the hiring process more transparent: candidates gain insight into
-the specific skills and requirements that matter most for the role, while companies benefit from a clear, quantifiable
-method to compare how much candidates align with the open position.
+To achieve this, we have designed the **Open Hiring Matrix (OHM)**, a structured framework that brings clarity, fairness, and consistency to the selection process. This system not only provides a transparent view of the role requirements but also establishes the importance of each skill, allowing candidates to be assessed across a diverse set of competencies: technical, cultural, and interpersonal. The OHM ensures that hiring decisions are based on objective criteria, avoiding misunderstandings and subjective interpretations between candidates and companies.
 
-The approach of OHM aims to help organizations identify what skills they value the most in a role—whether it’s technical
-expertise, soft skills, or cultural fit—while providing a balanced, comprehensive assessment of each candidate across
-a variety of attributes. In essence, OHM aligns expectations on both sides of the hiring process, creating a fair and
-data-driven approach to talent acquisition from the start.
+Using the OHM, candidates gain a clear understanding of the most critical aspects of the role, while companies benefit from a quantifiable system to measure alignment between the candidate’s profile and the position. This approach helps organizations identify and prioritize the most valuable competencies—whether technical experience, interpersonal skills, or cultural fit—offering a balanced and comprehensive assessment of each candidate.
 
-## Why
+## Purpose 
 
-When reviewing job descriptions, it’s often unclear what the company prioritizes from the list of required skills.
-Phrases like 'Experience with...,' 'Strong knowledge of...,' 'Solid knowledge of...,' 'Advanced knowledge of...,' or
-'Familiarity with...' can make it difficult to determine which skill or adjective—if we focus on the descriptive
-language—carries more weight.
+Job descriptions often do not clarify which skills are truly prioritized by the company. Phrases like "Solid knowledge of...,” “Proficiency in...," "Experience with..." or "3 years of experience in..." tend to be vague and open to multiple interpretations, creating confusion for both candidates and companies. In many cases, the requirements listed and what is genuinely valued in the role do not fully align.
 
-Does "Solid knowledge" imply more expertise than "Advanced knowledge"? Or does "Experience with" hold more value than
-"Strong knowledge"?
+In the tech industry, requirement lists can seem endless, and we know that objective evaluation is not always feasible. Beyond technical skills, companies seek interpersonal abilities, global experience, and cultural fit. However, when these expectations are not clearly defined, the selection process can become inconsistent and discouraging.
 
-Some cases might feel clearer than others, for instance, "Experience with" seems to be clear that it means more than
-"Familiarity with", right?
+On the one hand, long requirement lists may discourage candidates, making them uncertain about whether they meet expectations. On the other hand, companies risk missing out on valuable talent due to unclear or imprecise evaluations. This traditional approach does not effectively communicate what is truly essential for the role, potentially leading to misunderstandings that negatively impact both parties.
+The purpose of OHM is to provide a comprehensive framework that facilitates the identification of required competencies while promoting transparency and openness in the selection process.
 
-Because there is no easy way to quantify these terms, we often rely on adjectives that are loosely defined and can be
-interpreted differently by different people.
+**We want to align job postings with how we evaluate candidates**.
 
-It is probably known by now that the list of requirements, especially in the tech industry, feels endless sometimes, and
-we know we can't easily evaluate everything that is asked for in a practical way. Moreover, not only hard skills are
-being evaluated, but also soft skills, experience, cultural fit, etc., which arguably in many cases could be or have
-been a reason for rejection as well.
+Our goal is to simplify and enhance this process. We want candidates to clearly understand which competencies are most relevant for the role, and for companies to have objective tools to assess candidates fairly and consistently, based on concrete data rather than subjective interpretations.
 
-We all could benefit from a way of being transparent about the spectrum of dimensions or skillsets that are necessary
-and that will be evaluated during a hiring process in order to better align between the company and the candidate.
 
-As a candidate, understanding how much you think you align with the role and a company may increase the chances to apply
-eagerly with confidence, and for the company, it could increase the chances of finding a great match faster.
-
-## Purpose
+## Foundations
+In a constantly evolving job market, having a clear and equitable approach to hiring processes is essential. The Open Hiring Matrix (OHM) offers as a solution to address the challenges faced by both companies and candidates in their search for talent.
 
 OHM aims to provide:
 
-- **Structure**: A framework for companies to describe the required skills (technical and non-technical) for a role.
-- **Transparency**: Clear insight for candidates into how different skills and requirements are valued by the company.
-- **Openness**: An evaluation template for companies to also provide candidates with feedback.
+- **Structure**: A framework that allows companies to outline the specific technical and non-technical skills required for each role.
+- **Transparency**: A clear perspective for candidates on how the company values various skills and requirements, helping them better understand what is expected. 
+- **Openness**: An evaluation model that encourages companies to give constructive feedback to candidates, promoting open communication throughout the hiring process. 
 
 ## Implementation
 
