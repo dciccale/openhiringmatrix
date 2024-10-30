@@ -25,61 +25,60 @@ The purpose of OHM is to provide a comprehensive framework that facilitates the 
 
 Our goal is to simplify and enhance this process. We want candidates to clearly understand which competencies are most relevant for the role, and for companies to have objective tools to assess candidates fairly and consistently, based on concrete data rather than subjective interpretations.
 
-OHM provides the structure needed to bridge gaps in understanding, ultimately creating more effective, transparent hiring practices. 
+OHM provides the structure needed to bridge gaps in understanding, ultimately creating more effective, transparent hiring practices.
 
-
-## Foundations 
+## Foundations
 
 In a constantly evolving job market, having a clear and equitable approach to hiring processes is essential. The Open Hiring Matrix (OHM) offers as a solution to address the challenges faced by both companies and candidates in their search for talent.
 
 OHM aims to provide:
 
 - **Structure**: A framework that allows companies to outline the specific technical and non-technical skills required for each role.
-- **Transparency**: A clear perspective for candidates on how the company values various skills and requirements, helping them better understand what is expected. 
-- **Openness**: An evaluation model that encourages companies to give constructive feedback to candidates, promoting open communication throughout the hiring process. 
+- **Transparency**: A clear perspective for candidates on how the company values various skills and requirements, helping them better understand what is expected.
+- **Openness**: An evaluation model that encourages companies to give constructive feedback to candidates, promoting open communication throughout the hiring process.
 
-## Components Evaluation 
+## Components Evaluation
 
 To conduct an effective assessment within the Open Hiring Matrix (OHM), we will focus on three key components: competence, criterion, and weight.
 
 - **Competence**: This component helps us identify the essential skills and characteristics for the role. It includes not only technical skills but also interpersonal abilities and cultural factors that ensure a candidate fits well with the team. By clearly defining what we seek, we can better align our needs with what each candidate offers. For example, for a software developer, a fundamental competence could be "technical skills." This can be broken down into specific areas such as the programming language to evaluate, relevant frameworks and libraries, and practices related to testing and code quality.
-- **Criterion**: This component sets specific standards for evaluating each skill, clarifying expectations. For example, if the skill is "Programming languages," the criterion could be “Proficiency in relevant programming languages,” with further detail like “Ability to write clean, efficient Python code.” This could be assessed with a checklist or tasks tailored to measure the candidate's expertise accurately. 
+- **Criterion**: This component sets specific standards for evaluating each skill, clarifying expectations. For example, if the skill is "Programming languages," the criterion could be “Proficiency in relevant programming languages,” with further detail like “Ability to write clean, efficient Python code.” This could be assessed with a checklist or tasks tailored to measure the candidate's expertise accurately.
 - **Weight**: This component assigns relative importance to each competence. Not all competencies are equally critical, so by prioritizing the most relevant ones, we ensure our evaluation reflects what we truly need for the role. Each weight is distributed among the specified competences, indicating which aspects we value more.
 
-Defining the components of competence, criterion, and weight creates a standardized assessment framework. This ensures evaluators have clear benchmarks and candidates understand the expectations. To illustrate this framework in action, let’s dive into an example of how the Open Hiring Matrix can be implemented for a software engineering role. 
+Defining the components of competence, criterion, and weight creates a standardized assessment framework. This ensures evaluators have clear benchmarks and candidates understand the expectations. To illustrate this framework in action, let’s dive into an example of how the Open Hiring Matrix can be implemented for a software engineering role.
 
-### TECHNICAL SKILLS 
- 
+### TECHNICAL SKILLS
+
 Technical skills involve evaluating the specific knowledge and competencies that enable a candidate to perform tasks or
 use tools in a particular field, such as programming, design, or systems management.
 
-| Competence                                       | Criterion                                                                             | Weight |
-| ------------------------------------------------ | ------------------------------------------------------------------------------------- | ------ |
-| TECHNICAL SKILLS                                 |                                                                                       | 3      |
-| &nbsp;&nbsp;&nbsp;&nbsp;Programming languages    | Proficiency in relevant programming languages.                                        | 1      |
-| &nbsp;&nbsp;&nbsp;&nbsp;Frameworks and libraries | Proficiency in frameworks and libraries relevant to the role.                         | 0.5    |
-| &nbsp;&nbsp;&nbsp;&nbsp;API Development          | Ability to design and build RESTful or GraphQL APIs and understand their integration. | 0.5    |
-| &nbsp;&nbsp;&nbsp;&nbsp;Testing and code quality | Familiarity with testing practices such as TDD or BDD.                                | 1      |
+| Competence               | Criterion                                                                             | Weight |
+| ------------------------ | ------------------------------------------------------------------------------------- | ------ |
+| TECHNICAL SKILLS         |                                                                                       | 3      |
+| Programming languages    | Proficiency in relevant programming languages.                                        | 1      |
+| Frameworks and libraries | Proficiency in frameworks and libraries relevant to the role.                         | 0.5    |
+| API Development          | Ability to design and build RESTful or GraphQL APIs and understand their integration. | 0.5    |
+| Testing and code quality | Familiarity with testing practices such as TDD or BDD.                                | 1      |
 
 These criteria ensure that the candidate possesses both theoretical knowledge and practical application skills.
 
-### SOFT SKILLS 
+### SOFT SKILLS
 
 Soft skills assess interpersonal and emotional competencies that facilitate communication, collaboration, and
 relationship management in the workplace.
 
-| Competence                              | Criterion                                                                   | Weight |
-| --------------------------------------- | --------------------------------------------------------------------------- | ------ |
-| SOFT SKILLS                             |                                                                             | 2      |
-| &nbsp;&nbsp;&nbsp;&nbsp;Communication   | Ability to express ideas and concepts clearly.                              | 0.5    |
-| &nbsp;&nbsp;&nbsp;&nbsp;Teamwork        | Efficiency in collaborating with others and building relationships at work. | 0.5    |
-| &nbsp;&nbsp;&nbsp;&nbsp;Adaptability    | Flexibility and willingness to learn and adjust to new situations.          | 0.5    |
-| &nbsp;&nbsp;&nbsp;&nbsp;Problem-solving | Ability to identify, analyze, and solve problems effectively.               | 0.5    |
+| Competence      | Criterion                                                                   | Weight |
+| --------------- | --------------------------------------------------------------------------- | ------ |
+| SOFT SKILLS     |                                                                             | 2      |
+| Communication   | Ability to express ideas and concepts clearly.                              | 0.5    |
+| Teamwork        | Efficiency in collaborating with others and building relationships at work. | 0.5    |
+| Adaptability    | Flexibility and willingness to learn and adjust to new situations.          | 0.5    |
+| Problem-solving | Ability to identify, analyze, and solve problems effectively.               | 0.5    |
 
 These criteria assess the candidate's ability to collaborate within a team, learn, and positively impact the work
 environment.
 
-### EXPERIENCE 
+### EXPERIENCE
 
 Experience measures the candidate’s professional background in relation to the position.
 
@@ -93,7 +92,7 @@ Experience measures the candidate’s professional background in relation to the
 
 These criteria determine whether the candidate has the competence and adaptability required for success in the role.
 
-### CULTURAL FIT 
+### CULTURAL FIT
 
 Cultural fit assesses how well the candidate’s values, beliefs, and behaviors align with the organization.
 
@@ -120,9 +119,9 @@ Cultural Add evaluates how the candidate could bring new perspectives and divers
 
 These criteria measure how the candidate can enhance the company’s culture through diversity, innovation, and unique skills.
 
-## Candidate Evaluation 
+## Candidate Evaluation
 
-Once the evaluation components are defined, we will proceed to assess the candidate based on each established criterion. The following columns will be utilized in the matrix: 
+Once the evaluation components are defined, we will proceed to assess the candidate based on each established criterion. The following columns will be utilized in the matrix:
 
 - **Observations**: Specific notes or feedback on the candidate's performance in each criterion.
 - **Score**: A numerical score between 1 to 10, where 1 is the lowest possible score and 10 is the top score. It is
@@ -130,13 +129,13 @@ Once the evaluation components are defined, we will proceed to assess the candid
 - **Total Score**: The sum of all scores for each candidate. The mathematical formula to describe this would be: Total
   Score = `∑(S × W)`
 
-By integrating scores and observations into the evaluation, we not only quantify performance but also provide constructive feedback. This dual approach highlights each candidate’s strengths and identifies areas for development, making the assessment process more comprehensive and transparent. 
+By integrating scores and observations into the evaluation, we not only quantify performance but also provide constructive feedback. This dual approach highlights each candidate’s strengths and identifies areas for development, making the assessment process more comprehensive and transparent.
 
-## Implementation 
+## Implementation
 
 Now, let’s fully implement the Open Hiring Matrix using a software engineering role as our example.
 
-|Competence                                                             | Criterion                                                                                      | Weight | Observations                                                                                                     | Score | Total Score |
+| Competence                                                          | Criterion                                                                                      | Weight | Observations                                                                                                     | Score | Total Score |
 | ------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ------ | ---------------------------------------------------------------------------------------------------------------- | ----- | ----------- |
 | **Technical Skills**                                                |                                                                                                | 3      |                                                                                                                  |       |             |
 | &nbsp;&nbsp;&nbsp;&nbsp;Programming languages                       | Proficiency in relevant programming languages.                                                 | 1      | Strong proficiency in Python and JavaScript. Needs improvement in TypeScript.                                    | 7     | 7           |
@@ -158,7 +157,7 @@ Now, let’s fully implement the Open Hiring Matrix using a software engineering
 | &nbsp;&nbsp;&nbsp;&nbsp;Commitment to organizational mission/vision | Motivation to contribute to the organization’s goals.                                          | 0.25   | Expresses enthusiasm for the company’s vision but lacks clear ideas for long-term contributions.                 | 7     | 1.75        |
 | &nbsp;&nbsp;&nbsp;&nbsp;Adaptation to methodology and work style    | Ability to adapt to the company’s methodologies, such as agile development.                    | 0.5    | Understands agile development well, adapts easily to changes in sprints and retrospectives.                      | 8     | 4           |
 | &nbsp;&nbsp;&nbsp;&nbsp;Fit with leadership style                   | Compatibility with the company’s leadership approach (hierarchical, collaborative, etc.).      | 0.75   | Easily adaptable to collaborative leadership styles, enjoys autonomy.                                            | 9     | 6.75        |
-| **Cultural Add**                                           |                                                                                                | 1      |                                                                                                                  |       |             |
+| **Cultural Add**                                                    |                                                                                                | 1      |                                                                                                                  |       |             |
 | &nbsp;&nbsp;&nbsp;&nbsp;Diversity of thought and approach           | Ability to contribute new approaches, solutions, or ideas.                                     | 0.5    | Demonstrates creative thinking, often suggests alternative approaches to solve issues.                           | 8     | 4           |
 | &nbsp;&nbsp;&nbsp;&nbsp;Innovation and new skills                   | Introduction of technical or methodological skills not currently present in the team.          | 0.25   | Brought in ideas for new work methodologies but hasn't introduced any groundbreaking skills or technologies yet. | 6     | 1.5         |
 | &nbsp;&nbsp;&nbsp;&nbsp;International or multicultural experience   | Experience in culturally diverse teams or international markets.                               | 0.25   | Limited experience in international teams but adaptable to different cultural contexts.                          | 5     | 1.25        |
@@ -169,7 +168,7 @@ The final score for this candidate would be the total sum of all the scores mult
 
 ### Horizontal Evaluation Matrix
 
-For simplicity, we are omitting the breakdown skills of each category. This matrix represents an aggregate view of each candidate's evaluation across major competency criteria. As we assess **different candidates** in the selection process, the final score will reflect the weighted sum of their competencies, guiding us in the decision-making process to select the most suitable candidate. 
+For simplicity, we are omitting the breakdown skills of each category. This matrix represents an aggregate view of each candidate's evaluation across major competency criteria. As we assess **different candidates** in the selection process, the final score will reflect the weighted sum of their competencies, guiding us in the decision-making process to select the most suitable candidate.
 
 | Candidate   | Technical Skills (3) | Soft Skills (2) | Experience (3) | Cultural Fit (2) | Cultural Contribution (1) | Total Score |
 | ----------- | -------------------- | --------------- | -------------- | ---------------- | ------------------------- | ----------- |
@@ -202,7 +201,9 @@ We are planning to provide a web application that will allow companies to:
 - Share evaluation results privately with candidates.
 
 ## Feedback
+
 We welcome feedback and suggestions for improving OHM. Please share your thoughts and experiences to help us refine and enhance this tool.
 
 ### Human-Created / AI-Assisted
+
 The idea, concept, structure, and formulation of this framework were human-created. However, parts of this document were created with the assistance of Chat GPT.
