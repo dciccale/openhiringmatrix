@@ -7,25 +7,16 @@ import { fileURLToPath } from "url";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const markdownFilePath = path.join(__dirname, "README.md");
+const en = path.join(__dirname, "README.md");
+const es = path.join(__dirname, "es.md");
 
 const PORT = 4000;
 
 let server;
 
-function startServer() {
-  server = http.createServer((_, res) => {
-    fs.readFile(markdownFilePath, "utf8", (err, data) => {
-      if (err) {
-        res.writeHead(500, { "Content-Type": "text/plain" });
-        res.end("Error reading file");
-        return;
-      }
-
-      const html = marked(data);
-
-      res.writeHead(200, { "Content-Type": "text/html" });
-      res.end(`
+function getPage(data) {
+  const html = marked(data);
+  return `
         <!DOCTYPE html>
         <html lang="en">
           <head>
@@ -41,22 +32,40 @@ function startServer() {
             ${html}
           </body>
         </html>
-      `);
+      `;
+}
+
+function startServer() {
+  server = http.createServer((req, res) => {
+    const file = req.url === "/es" ? es : en;
+    fs.readFile(file, "utf8", (err, data) => {
+      if (err) {
+        res.writeHead(500, { "Content-Type": "text/plain" });
+        res.end("Error reading file");
+        return;
+      }
+
+      res.writeHead(200, { "Content-Type": "text/html" });
+      res.end(getPage(data));
     });
   });
 
   server.listen(PORT, () => {
-    console.log("Server is running on http://localhost:3000");
+    console.log(`Server is running on http://localhost:${PORT}`);
   });
 }
 
-fs.watch(markdownFilePath, (eventType) => {
+function restartServer(eventType) {
   if (eventType === "change") {
-    console.log(`${markdownFilePath} has changed, restarting server...`);
+    console.log(`File has changed, restarting server...`);
     server.close(() => {
       startServer();
     });
   }
-});
+}
+
+fs.watch(en, restartServer);
+
+fs.watch(es, restartServer);
 
 startServer();

@@ -206,4 +206,4 @@ We welcome feedback and suggestions for improving OHM. Please share your thought
 
 ### Human-Created / AI-Assisted
 
-The idea, concept, structure, and formulation of this framework were human-created. However, parts of this document were created with the assistance of Chat GPT.
+The idea, concept, structure, and formulation of this framework were human-created. However, parts of this document were created or translated with the assistance of Chat GPT.
