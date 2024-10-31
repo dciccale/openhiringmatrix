@@ -92,15 +92,13 @@ Estos criterios determinan si el candidato posee la competencia y adaptabilidad 
 
 La afinidad cultural evalúa qué tan bien se alinean los valores, creencias y comportamientos del candidato con la organización.
 
-| Competencia                                            | Criterio | Peso |
-| ------------------------------------------------------ | -------- | ---- |
-| AFINIDAD CULTURAL                                      |          | 2    |
-| Alineación con los valores fundamentales de la empresa | Compat   |
-
-ibilidad con los principios fundamentales de la empresa. | 0.5 |
-| Compromiso con la misión y visión organizacional | Motivación para contribuir a los objetivos de la organización. | 0.25 |
-| Adaptación a metodología y estilo de trabajo | Capacidad para adaptarse a las metodologías de la empresa, como el desarrollo ágil. | 0.5 |
-| Compatibilidad con el estilo de liderazgo | Compatibilidad con el enfoque de liderazgo de la empresa (jerárquico, colaborativo, etc.). | 0.75 |
+| Competencia                                            | Criterio                                                                                   | Peso |
+| ------------------------------------------------------ | ------------------------------------------------------------------------------------------ | ---- |
+| AFINIDAD CULTURAL                                      |                                                                                            | 2    |
+| Alineación con los valores fundamentales de la empresa | Compatibilidad con los principios fundamentales de la empresa.                             | 0.5  |
+| Compromiso con la misión y visión organizacional       | Motivación para contribuir a los objetivos de la organización.                             | 0.25 |
+| Adaptación a metodología y estilo de trabajo           | Capacidad para adaptarse a las metodologías de la empresa, como el desarrollo ágil.        | 0.5  |
+| Compatibilidad con el estilo de liderazgo              | Compatibilidad con el enfoque de liderazgo de la empresa (jerárquico, colaborativo, etc.). | 0.75 |
 
 Estos criterios ayudan a determinar si el candidato puede integrarse con éxito en la cultura de la empresa.
 
