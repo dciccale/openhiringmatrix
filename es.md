@@ -6,7 +6,7 @@
 
 En este documento explicaremos en qué consiste este proyecto y cómo puedes implementarlo con éxito en tu proceso de contratación.
 
-Nuestro objetivo es cambiar el enfoque tradicional de publicar ofertas de trabajo. Alejándonos de largas y abstractas listas de requisitos, nos dirigimos hacia un marco de contratación más definido, accesible y transparente para empresas y candidatos.
+Nuestro objetivo es cambiar el enfoque tradicional de la publicaciòn ofertas de trabajo. Alejándonos de largas y abstractas listas de requisitos, nos dirigimos hacia un marco de contratación más definido, accesible y transparente para empresas y candidatos.
 
 Para lograrlo, hemos diseñado la **Matriz de Contratación Abierta (OHM)**, un marco estructurado que aporta claridad, equidad y consistencia al proceso de selección. Este sistema no solo ofrece una visión transparente de los requisitos del puesto, sino que también establece la importancia de cada habilidad, permitiendo evaluar a los candidatos en una variedad de competencias: técnicas, culturales e interpersonales. La OHM asegura que las decisiones de contratación se basen en criterios objetivos, evitando malentendidos e interpretaciones subjetivas entre candidatos y empresas.
 
@@ -20,7 +20,7 @@ En la industria tecnológica, las listas de requisitos pueden parecer interminab
 
 Por un lado, listas largas de requisitos pueden desanimar a los candidatos, haciéndolos dudar de si cumplen con las expectativas. Por otro, las empresas corren el riesgo de perder talento valioso debido a evaluaciones poco claras o imprecisas. Este enfoque tradicional no comunica de manera efectiva lo que realmente es esencial para el rol, lo que puede llevar a malentendidos que afectan negativamente a ambas partes. El propósito de OHM es proporcionar un marco integral que facilite la identificación de competencias requeridas, promoviendo la transparencia y apertura en el proceso de selección.
 
-**Queremos alinear las publicaciones de trabajo con la forma en que evaluamos a los candidatos**.
+**Queremos alinear las ofertas de empleo con la forma en que evaluamos a los candidatos**.
 
 Nuestro objetivo es simplificar y mejorar este proceso. Queremos que los candidatos comprendan claramente qué competencias son más relevantes para el rol, y que las empresas tengan herramientas objetivas para evaluar a los candidatos de manera justa y consistente, basándose en datos concretos en lugar de interpretaciones subjetivas.
 
@@ -60,13 +60,13 @@ Las habilidades técnicas implican evaluar el conocimiento y las competencias es
 
 Estos criterios aseguran que el candidato posea tanto conocimientos teóricos como habilidades de aplicación práctica.
 
-### HABILIDADES BLANDAS
+### HABILIDADES INTERPERSONALES 
 
-Las habilidades blandas evalúan competencias interpersonales y emocionales que facilitan la comunicación, la colaboración y la gestión de relaciones en el lugar de trabajo.
+Las habilidades interpersonales evalúan competencias interpersonales y emocionales que facilitan la comunicación, la colaboración y la gestión de relaciones en el lugar de trabajo.
 
 | Competencia             | Criterio                                                                   | Peso |
 | ----------------------- | -------------------------------------------------------------------------- | ---- |
-| HABILIDADES BLANDAS     |                                                                            | 2    |
+| HABILIDADES INTERPERSONALES     |                                                                            | 2    |
 | Comunicación            | Capacidad para expresar ideas y conceptos con claridad.                    | 0.5  |
 | Trabajo en equipo       | Eficiencia en colaborar con otros y construir relaciones en el trabajo.    | 0.5  |
 | Adaptabilidad           | Flexibilidad y disposición para aprender y adaptarse a nuevas situaciones. | 0.5  |
@@ -136,7 +136,7 @@ Ahora, implementemos completamente la Matriz de Contratación Abierta usando un 
 | &nbsp;&nbsp;&nbsp;&nbsp;Marcos y bibliotecas                                   | Dominio de los marcos y bibliotecas relevantes para el rol.                                             | 0.5  | Experiencia en React y Redux pero carece de experiencia práctica en bibliotecas modernas de gestión de estado como Zustand.    | 6          | 3                |
 | &nbsp;&nbsp;&nbsp;&nbsp;Desarrollo de API                                      | Capacidad para diseñar y construir APIs RESTful o GraphQL y entender su integración.                    | 0.5  | Buen entendimiento de APIs RESTful, ha construido APIs GraphQL pero a nivel principiante.                                      | 5          | 2.5              |
 | &nbsp;&nbsp;&nbsp;&nbsp;Pruebas y calidad de código                            | Familiaridad con prácticas de pruebas como TDD o BDD.                                                   | 1    | Conocimientos de TDD pero poca experiencia en la vida real. La calidad del código es aceptable.                                | 5          | 5                |
-| **Habilidades Blandas**                                                        |                                                                                                         | 2    |                                                                                                                                |            |                  |
+| **Habilidades interpersonales**                                                        |                                                                                                         | 2    |                                                                                                                                |            |                  |
 | &nbsp;&nbsp;&nbsp;&nbsp;Comunicación                                           | Capacidad para expresar ideas y conceptos con claridad.                                                 | 0.5  | Comunica eficazmente, claro y conciso, pero necesita trabajar en articular conceptos técnicos complejos.                       | 8          | 4                |
 | &nbsp;&nbsp;&nbsp;&nbsp;Trabajo en equipo                                      | Eficiencia en colaborar con otros y construir relaciones en el trabajo.                                 | 0.5  | Trabaja bien en equipo, fomenta la comunicación abierta, aunque a veces domina las discusiones.                                | 7          | 3.5              |
 | &nbsp;&nbsp;&nbsp;&nbsp;Adaptabilidad                                          | Flexibilidad y disposición para aprender y adaptarse a nuevas situaciones.                              | 0.5  | Muestra flexibilidad en aprender nuevos marcos, aunque le cuesta adaptarse a cambios significativos en flujos de trabajo.      | 6          | 3                |
@@ -166,7 +166,7 @@ caso, el candidato obtuvo **75.75** de un máximo de 100.
 
 Para simplificar, omitimos las habilidades detalladas de cada categoría. Esta matriz representa una vista agregada de la evaluación de cada candidato en los principales criterios de competencia. A medida que evaluamos **diferentes candidatos** en el proceso de selección, la puntuación final reflejará la suma ponderada de sus competencias, guiándonos en el proceso de toma de decisiones para seleccionar al candidato más adecuado.
 
-| Candidato   | Habilidades Técnicas (3) | Habilidades Blandas (2) | Experiencia (3) | Afinidad Cultural (2) | Contribución Cultural (1) | Puntuación Total |
+| Candidato   | Habilidades Técnicas (3) | Habilidades Interpersonales (2) | Experiencia (3) | Afinidad Cultural (2) | Contribución Cultural (1) | Puntuación Total |
 | ----------- | ------------------------ | ----------------------- | --------------- | --------------------- | ------------------------- | ---------------- |
 | Candidato A | 5 (15)                   | 8 (16)                  | 5 (15)          | 6 (12)                | 8 (8)                     | 66               |
 | Candidato B | 7 (21)                   | 7 (14)                  | 7 (21)          | 7 (14)                | 6 (6)                     | 76               |
@@ -175,7 +175,7 @@ Para simplificar, omitimos las habilidades detalladas de cada categoría. Esta m
 
 ### Conclusión
 
-En este ejemplo, **Candidato C** no obtuvo la puntuación más alta en **Habilidades Técnicas** (con un 6), pero sobresale significativamente en **Habilidades Blandas**, **Afinidad Cultural** y **Contribución Cultural**. Este perfil equilibrado, con fuertes habilidades interpersonales y culturales, convierte a **Candidato C** en una opción más atractiva para las necesidades de la empresa. Su puntuación total de **78** refleja sus habilidades bien equilibradas, posicionándolo como un candidato que podría integrarse bien con el equipo, incluso sin ser el más fuerte técnicamente.
+En este ejemplo, **Candidato C** no obtuvo la puntuación más alta en **Habilidades Técnicas** (con un 6), pero sobresale significativamente en **Habilidades Interpersonales**, **Afinidad Cultural** y **Contribución Cultural**. Este perfil equilibrado, con fuertes habilidades interpersonales y culturales, convierte a **Candidato C** en una opción más atractiva para las necesidades de la empresa. Su puntuación total de **78** refleja sus habilidades bien equilibradas, posicionándolo como un candidato que podría integrarse bien con el equipo, incluso sin ser el más fuerte técnicamente.
 
 Este escenario muestra cómo las prácticas de contratación modernas consideran una variedad de factores, como la comunicación, la adaptabilidad y la alineación cultural. Demuestra que un candidato puede ser una excelente opción para el equipo sin necesariamente sobresalir en un área específica, especialmente cuando sus fortalezas coinciden con lo que la empresa valora más en sus empleados.
 
